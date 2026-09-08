@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64" role="img" aria-label="Notes workspace">
+  <title>Notes workspace</title>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#8A6518"/>
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M18 12h28v40H18Z"/><path d="M12 21h11M12 32h11M12 43h11M29 22h9M29 31h9M29 40h6"/></g>
+</svg>

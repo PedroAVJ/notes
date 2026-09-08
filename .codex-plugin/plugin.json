@@ -1,0 +1,48 @@
+{
+  "name": "notes",
+  "version": "0.6.2",
+  "description": "Create and manage Apple Notes, make native checklists, and read Apple call recordings with their transcript cache.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/notes",
+  "repository": "https://github.com/PedroAVJ/notes",
+  "license": "MIT",
+  "keywords": [
+    "call-recording",
+    "apple-notes",
+    "macos",
+    "audio",
+    "transcription",
+    "core-data",
+    "checklists",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Notes",
+    "shortDescription": "Create, organize, and read Apple Notes",
+    "longDescription": "Create and edit Apple Notes, including true native interactive checklists, through Codex Computer Use; use a pinned local MCP server for bounded reads; and retain the existing read-only call-recording and transcript-cache workflows.",
+    "developerName": "PedroAVJ",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/PedroAVJ/notes",
+    "defaultPrompt": [
+      "Create an Apple Note from this",
+      "Make a native Apple Notes checklist",
+      "Find this in my Apple Notes",
+      "List my recorded calls",
+      "Process this exact recorded call"
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/notes-icon.svg",
+    "logo": "./assets/notes-icon.svg",
+    "screenshots": []
+  }
+}

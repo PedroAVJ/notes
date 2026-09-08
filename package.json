@@ -1,0 +1,18 @@
+{
+  "name": "@pedroavj/notes",
+  "version": "0.6.2",
+  "private": true,
+  "description": "Create and manage Apple Notes, make native checklists, and read Apple call recordings with their transcript cache.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroAVJ/notes.git"
+  },
+  "homepage": "https://github.com/PedroAVJ/notes#readme",
+  "bugs": {
+    "url": "https://github.com/PedroAVJ/notes/issues"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs && PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_*.py'"
+  }
+}
